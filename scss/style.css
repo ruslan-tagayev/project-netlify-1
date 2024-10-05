@@ -749,18 +749,18 @@ header .header .header_content .header_content_L p {
   }
   .card .card_content button {
     margin-top: 20px;
-    width: 58px;
+    width: 138px;
     height: 29px;
     border: 2px;
     background-color: #4F8FF0;
     font-family: Nunito Sana;
-    font-size: 9px;
+    font-size: 14px;
     font-weight: 900;
     line-height: 6.8px;
     color: #FFFFFF;
   }
   .card-1 {
-    transform: translateY(-400px);
+    transform: translateY(-370px);
     width: 100%;
     height: 10vh;
     background: rgba(1, 1, 1, 0.7607843137);
@@ -813,13 +813,13 @@ header .header .header_content .header_content_L p {
   }
   .card-2 button {
     margin-top: 30px;
-    margin-left: 170px;
-    width: 68px;
+    margin-left: 130px;
+    width: 168px;
     height: 29px;
     border: none;
     background-color: #4F8FF0;
     font-family: Nunito Sana;
-    font-size: 4px;
+    font-size: 14px;
     font-weight: 900;
     line-height: 6.8px;
     color: #FFFFFF;
@@ -1052,6 +1052,7 @@ header .header .header_content .header_content_L p {
     background-color: #F7F7F7;
   }
   .card-4 .card-4_content {
+    padding-top: 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -1100,7 +1101,7 @@ header .header .header_content .header_content_L p {
   }
   .card-5 {
     width: 100%;
-    height: 60vh;
+    height: 73vh;
     background-image: url(../img/Фон\ блока.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -1180,14 +1181,16 @@ header .header .header_content .header_content_L p {
   .card-5 .card-5_button {
     margin-top: 20px;
     margin-left: 140px;
+    gap: 50px;
   }
   .card-5 .card-5_button button {
-    width: 56px;
+    margin-top: 20px;
+    width: 156px;
     height: 26px;
     gap: 10px;
     background-color: #4F8FF0;
     font-family: Nunito Sana;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 10px;
   }
   .card-6 {
@@ -1275,12 +1278,12 @@ header .header .header_content .header_content_L p {
     margin-left: 150px;
   }
   .card-6 .card-6_button button {
-    width: 83px;
+    width: 143px;
     height: 29px;
     border: none;
     background-color: #4F8FF0;
     font-family: Nunito Sana;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 900;
     line-height: 6.8px;
     text-align: center;
@@ -1302,15 +1305,16 @@ header .header .header_content .header_content_L p {
     font-family: Nunito Sana;
     font-size: 18px;
     font-weight: 900;
-    line-height: 12px;
+    line-height: 14px;
     text-align: center;
     color: #4F8FF0;
   }
   .card-7 .card-7_content p {
+    padding-top: 20px;
     font-family: Nunito Sana;
     font-size: 10px;
     font-weight: 400;
-    line-height: 9.2px;
+    line-height: 10.2px;
     text-align: center;
     color: #F8F5F4;
   }
