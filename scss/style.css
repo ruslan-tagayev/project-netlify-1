@@ -1,0 +1,2969 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Nunito Sana;
+  src: url(../fonts/Montserrat-Regular.ttf) format(truetype);
+}
+header {
+  width: 100%;
+  height: 5vh;
+  background-color: #010101;
+}
+header .header .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 300px;
+}
+header .header .header_content .header_content_R {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+header .header .header_content .header_content_R p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+header .header .header_content .header_content_L p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  color: #4F8FF0;
+}
+
+.card {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/фон.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card img {
+  padding-left: 60px;
+  margin-top: 50px;
+}
+.card .card_content {
+  padding-top: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card .card_content h2 {
+  font-family: Nunito Sana;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 45px;
+  color: #FFFFFF;
+}
+.card .card_content h1 {
+  font-family: Nunito Sana;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 84px;
+  color: #4F8FF0;
+}
+.card .card_content p {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.card .card_content button {
+  margin-top: 20px;
+  width: 158px;
+  height: 49px;
+  border: 2px;
+  background-color: #4F8FF0;
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+
+.card-1 {
+  transform: translateY(-575px);
+  width: 100%;
+  height: 20vh;
+  background: rgba(1, 1, 1, 0.7607843137);
+}
+.card-1 .card-1_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-1 .card-1_content .card-1_content_R h3 {
+  font-family: Nunito Sana;
+  font-weight: 900;
+  line-height: 42px;
+  color: #4F8FF0;
+}
+.card-1 .card-1_content .card-1_content_R p {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.card-1 .card-1_content_l {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.card-1 .card-1_content_l p {
+  font-family: Nunito Sana;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #FFFFFF;
+}
+.card-1 .card-1_content_l p :hover {
+  font-family: Nunito Sana;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.6px;
+  color: #4F8FF0;
+}
+
+.card-2 {
+  width: 100%;
+  height: 140vh;
+  background-color: #F7F7F7;
+}
+.card-2 button {
+  margin-top: 30px;
+  margin-left: 700px;
+  width: 138px;
+  height: 49px;
+  border: none;
+  background-color: #4F8FF0;
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.card-2 .card-2_content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-2 .card-2_box_R {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.card-2 .card-2_box_R .card-2_box1:hover {
+  background-color: #4F8FF0;
+  transition: all 0.3s ease-in-out;
+}
+.card-2 .card-2_box_R .card-2_box1 {
+  width: 424px;
+  height: 250px;
+  background-color: #FFFFFF;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.card-2 .card-2_box_R .card-2_box1 h5 {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #222222;
+}
+.card-2 .card-2_box_R .card-2_box1 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+.card-2 .card-2_box_L {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.card-2 .card-2_box_L .card-2_box2:hover {
+  background-color: #4F8FF0;
+  transition: all 0.3s ease-in-out;
+}
+.card-2 .card-2_box_L .card-2_box2 {
+  width: 424px;
+  height: 250px;
+  background-color: #FFFFFF;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.card-2 .card-2_box_L .card-2_box2 h5 {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #222222;
+}
+.card-2 .card-2_box_L .card-2_box2 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+.card-2 .card-2_box_Q {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+.card-2 .card-2_box_Q .card-2_box2:hover {
+  background-color: #4F8FF0;
+  transition: all 0.3s ease-in-out;
+}
+.card-2 .card-2_box_Q .card-2_box2 {
+  width: 424px;
+  height: 250px;
+  background-color: #FFFFFF;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+}
+.card-2 .card-2_box_Q .card-2_box2 h5 {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #222222;
+}
+.card-2 .card-2_box_Q .card-2_box2 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+
+.card-3 {
+  width: 100%;
+  height: 120vh;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-3 .card-3_content h1 {
+  font-family: Nunito Sana;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #4F8FF0;
+}
+.card-3 .card-3_content p {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #010101;
+}
+.card-3 .card-3_content button {
+  width: 210px;
+  height: 49px;
+  border: none;
+  background-color: #4F8FF0;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+
+.card-4 {
+  width: 100%;
+  height: 120vh;
+  background-color: #F7F7F7;
+}
+.card-4 .card-4_content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-4 .card-4_content h1 {
+  font-family: Nunito Sana;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #222222;
+}
+.card-4 .card-4_content p {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #222222;
+}
+.card-4 .card-4_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-4 .card-4_box .card-4_box1 h3 {
+  background-color: #FFFFFF;
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  text-align: center;
+  color: #222222;
+}
+.card-4 .card-4_box .card-4_box1 p {
+  background-color: #FFFFFF;
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  text-align: center;
+  color: #222222;
+}
+
+.card-5 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(../img/Фон\ блока.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-5 .card-5_content {
+  padding-left: 100px;
+}
+.card-5 .card-5_box {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-5 .card-5_box .card-5_box1 {
+  width: 948px;
+  height: 244px;
+  background-color: #FFFFFF;
+}
+.card-5 .card-5_box .card-5_box1 .card-5_box1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card-5 .card-5_box .card-5_box1 .card-5_box1-1 h6 {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #222222;
+}
+.card-5 .card-5_box .card-5_box1 .card-5_box1-1 p {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+}
+.card-5 .card-5_box .card-5_box2 {
+  width: 948px;
+  height: 244px;
+  background-color: #FFFFFF;
+}
+.card-5 .card-5_box .card-5_box2 .card-5_box2-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.card-5 .card-5_box .card-5_box2 .card-5_box2-2 h6 {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #222222;
+}
+.card-5 .card-5_box .card-5_box2 .card-5_box2-2 p {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #222222;
+}
+.card-5 .card-5_button {
+  margin-top: 20px;
+  margin-left: 550px;
+}
+.card-5 .card-5_button button {
+  width: 146px;
+  height: 46px;
+  gap: 50px;
+  border: none;
+  background-color: #4F8FF0;
+  color: #FFFFFF;
+}
+
+.card-6 {
+  width: 100%;
+  height: 160vh;
+}
+.card-6 .card-6_content {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-6 .card-6_content h1 {
+  font-family: Nunito Sana;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #222222;
+}
+.card-6 .card-6_content p {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #222222;
+}
+.card-6 .card-6_box {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-6 .card-6_box .card-6_box1 h5 {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #222222;
+}
+.card-6 .card-6_box .card-6_box1 h4 {
+  font-family: Nunito Sana;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.4px;
+  color: #222222;
+}
+.card-6 .card-6_box .card-6_box1 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+.card-6 .card-6_button {
+  margin-top: 100px;
+  margin-left: 650px;
+}
+.card-6 .card-6_button button {
+  width: 153px;
+  height: 49px;
+  border: none;
+  background-color: #4F8FF0;
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.card-6 .card-6_box-1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-6 .card-6_box-1 .card-6_box1 h5 {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #222222;
+}
+.card-6 .card-6_box-1 .card-6_box1 h4 {
+  font-family: Nunito Sana;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.4px;
+  color: #222222;
+}
+.card-6 .card-6_box-1 .card-6_box1 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #222222;
+}
+
+.card-7 {
+  width: 100%;
+  height: 60vh;
+  background-color: #222222;
+}
+.card-7 .card-7_content {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-7 .card-7_content h1 {
+  font-family: Nunito Sana;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 42px;
+  color: #4F8FF0;
+}
+.card-7 .card-7_content p {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  color: #F8F5F4;
+}
+.card-7 .card-7_img {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-7 .card-7_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-7 .card-7_box .card-7_box1 {
+  padding-top: 20px;
+}
+.card-7 .card-7_box .card-7_box1 .card-7_box1-1 {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con {
+  padding-left: 20px;
+}
+.card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con h5 {
+  font-family: Nunito Sana;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.4px;
+  color: #8C8C8C;
+}
+.card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con p {
+  font-family: Nunito Sana;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.card-7 .card-7_box .card-7_box2 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.card-7 .card-7_box .card-7_box2 p :hover {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #4F8FF0;
+}
+.card-7 .card-7_box .card-7_box3 .card-7_box3-1 {
+  transform: translateX(-50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con {
+  padding-left: 20px;
+}
+.card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con h4 {
+  font-family: Nunito Sana;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.card-7 .card-7_box .card-7_box3 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+.card-7 .card-7_box .card-7_box3 button {
+  width: 241px;
+  height: 49px;
+  border: none;
+  background-color: #4F8FF0;
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+
+.card-8 {
+  width: 100%;
+  height: 5vh;
+  background-color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-8 h5 {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+.card-8 p {
+  font-family: Nunito Sana;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #FFFFFF;
+}
+
+@media (max-width: 447px) {
+  header {
+    width: 100%;
+    height: 5vh;
+    background-color: #010101;
+  }
+  header .header .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 300px;
+  }
+  header .header .header_content .header_content_R {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 250px;
+  }
+  header .header .header_content .header_content_R p {
+    display: none;
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  header .header .header_content .header_content_L p {
+    display: none;
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4F8FF0;
+  }
+  .card {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card img {
+    padding-left: 60px;
+    margin-top: 50px;
+  }
+  .card .card_content {
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card .card_content img {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .card_content h2 {
+    font-family: Nunito Sana;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  .card .card_content h1 {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #4F8FF0;
+  }
+  .card .card_content p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #FFFFFF;
+  }
+  .card .card_content button {
+    margin-top: 20px;
+    width: 58px;
+    height: 29px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-1 {
+    transform: translateY(-400px);
+    width: 100%;
+    height: 10vh;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .card-1 .card-1_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-1 .card-1_content .card-1_content_R {
+    margin-top: 20px;
+  }
+  .card-1 .card-1_content .card-1_content_R h3 {
+    font-family: Nunito Sana;
+    font-weight: 50;
+    line-height: 12px;
+    color: #4F8FF0;
+  }
+  .card-1 .card-1_content .card-1_content_R p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 15px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content .card-1_content_l {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card-1 .card-1_content .card-1_content_l p {
+    font-family: Nunito Sana;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 11.6px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content .card-1_content_l p :hover {
+    font-family: Nunito Sana;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 11.6px;
+    color: #4F8FF0;
+  }
+  .card-2 {
+    width: 100%;
+    height: 85vh;
+    background-color: #F7F7F7;
+  }
+  .card-2 button {
+    margin-top: 30px;
+    margin-left: 170px;
+    width: 68px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 900;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-2 .card-2_box_R {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 {
+    width: 124px;
+    height: 100px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_R .card-2_box1 p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover {
+    width: 124px;
+    height: 100px;
+    background-color: #4F8FF0;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_L {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 {
+    width: 124px;
+    height: 100px;
+    background-color: #FFFFFF;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L .card-2_box2 p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover {
+    width: 124px;
+    height: 100px;
+    background-color: #4F8FF0;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_Q {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 {
+    width: 124px;
+    height: 100px;
+    background-color: #FFFFFF;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover {
+    width: 124px;
+    height: 100px;
+    background-color: #4F8FF0;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover p {
+    font-family: Nunito Sana;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-3 {
+    width: 100%;
+    height: 70vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-3 .card-3_content {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-3 .card-3_content h1 {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 12px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-3 .card-3_content p {
+    font-family: Nunito Sana;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 10px;
+    color: #010101;
+  }
+  .card-3 .card-3_content button {
+    margin-top: 20px;
+    width: 110px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 10.8px;
+    color: #FFFFFF;
+  }
+  .card-3 .card-3_img img {
+    width: 250px;
+    height: 250px;
+  }
+  .card-4 {
+    width: 100%;
+    height: 160vh;
+    background-color: #F7F7F7;
+  }
+  .card-4 .card-4_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-4 .card-4_content h1 {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 12px;
+    color: #222222;
+  }
+  .card-4 .card-4_content p {
+    font-family: Nunito Sana;
+    font-size: 6px;
+    font-weight: 400;
+    line-height: 9.2px;
+    color: #222222;
+  }
+  .card-4 .card-4_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-4 .card-4_box .card-4_box1 h3 {
+    background-color: #FFFFFF;
+    font-family: Nunito Sana;
+    font-size: 6px;
+    font-weight: 700;
+    line-height: 9.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box1 p {
+    background-color: #FFFFFF;
+    font-family: Nunito Sana;
+    font-size: 6px;
+    font-weight: 300;
+    line-height: 9.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box1 img {
+    width: 200px;
+    height: 200px;
+  }
+  .card-5 {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/Фон\ блока.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card-5 .card-5_content {
+    padding-left: 100px;
+  }
+  .card-5 .card-5_box {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-5 .card-5_box .card-5_box1 {
+    width: 248px;
+    height: 154px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 h6 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-5 .card-5_box .card-5_box2 {
+    margin-top: 20px;
+    width: 248px;
+    height: 144px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 h6 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 10px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-5 .card-5_button {
+    margin-top: 20px;
+    margin-left: 140px;
+  }
+  .card-5 .card-5_button button {
+    width: 56px;
+    height: 26px;
+    gap: 10px;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-6 {
+    width: 100%;
+    height: 235vh;
+  }
+  .card-6 .card-6_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-6 .card-6_content h1 {
+    font-family: Nunito Sana;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #222222;
+  }
+  .card-6 .card-6_content p {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .card-6 .card-6_box {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-6 .card-6_box .card-6_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box .card-6_box1 h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 h4 {
+    font-family: Nunito Sana;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 h5 {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 h4 {
+    font-family: Nunito Sana;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_button {
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+  .card-6 .card-6_button button {
+    width: 83px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 {
+    width: 100%;
+    height: 110vh;
+    background-color: #222222;
+  }
+  .card-7 .card-7_content {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_content h1 {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 12px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_content p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.2px;
+    text-align: center;
+    color: #F8F5F4;
+  }
+  .card-7 .card-7_img {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_box .card-7_box1 {
+    padding-top: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con {
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con h5 {
+    font-family: Nunito Sana;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con p {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p :hover {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 {
+    margin-left: 70px;
+    transform: translateX(-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con h4 {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 button {
+    margin-left: 100px;
+    width: 141px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-8 {
+    width: 100%;
+    height: 20vh;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-8 h5 {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-8 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+}
+@media (min-width: 447.1px) and (max-width: 769px) {
+  header {
+    width: 100%;
+    height: 10vh;
+    background-color: #010101;
+  }
+  header .header .header_content {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+  }
+  header .header .header_content .header_content_R {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  header .header .header_content .header_content_R p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  header .header .header_content .header_content_L p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4F8FF0;
+  }
+  .card {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card img {
+    padding-left: 60px;
+    margin-top: 50px;
+  }
+  .card .card_content {
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card .card_content img {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .card .card_content h2 {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .card .card_content h1 {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #4F8FF0;
+  }
+  .card .card_content p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .card .card_content button {
+    margin-top: 10px;
+    width: 158px;
+    height: 49px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-1 {
+    transform: translateY(-370px);
+    width: 100%;
+    height: 15vh;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .card-1 .card-1_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-1 .card-1_content .card-1_content_R {
+    margin-top: 20px;
+  }
+  .card-1 .card-1_content .card-1_content_R h3 {
+    font-family: sans-serif;
+    font-weight: 150;
+    line-height: 22px;
+    color: #4F8FF0;
+  }
+  .card-1 .card-1_content .card-1_content_R p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content .card-1_content_l {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card-1 .card-1_content .card-1_content_l p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content .card-1_content_l p :hover {
+    font-family: sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 11.6px;
+    color: #4F8FF0;
+  }
+  .card-2 {
+    width: 100%;
+    height: 125vh;
+    background-color: #F7F7F7;
+  }
+  .card-2 button {
+    margin-top: 30px;
+    margin-left: 300px;
+    width: 168px;
+    height: 49px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_content {
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card-2 .card-2_content h1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 15px;
+  }
+  .card-2 .card-2_content p {
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .card-2 .card-2_box_R {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 {
+    width: 154px;
+    height: 150px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 h5 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_R .card-2_box1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover {
+    width: 154px;
+    height: 90px;
+    background-color: #4F8FF0;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_R .card-2_box1 :hover p {
+    font-family: sans-serif;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_L {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 {
+    width: 154px;
+    height: 150px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 h5 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L .card-2_box2 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover {
+    width: 124px;
+    height: 100px;
+    background-color: #4F8FF0;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_L .card-2_box2 :hover p {
+    font-family: sans-serif;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_Q {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 {
+    width: 154px;
+    height: 150px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 h5 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover {
+    width: 124px;
+    height: 100px;
+    background-color: #4F8FF0;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 :hover p {
+    font-family: sans-serif;
+    font-size: 4px;
+    font-weight: 400;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-3 {
+    width: 100%;
+    height: 90vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .card-3 .card-3_content {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-3 .card-3_content h1 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-3 .card-3_content p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #010101;
+  }
+  .card-3 .card-3_content .card-3_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .card-3 .card-3_content .card-3_button button {
+    margin-top: 20px;
+    width: 110px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 10.8px;
+    color: #FFFFFF;
+  }
+  .card-3 .card-3_img img {
+    width: 350px;
+    height: 250px;
+  }
+  .card-4 {
+    width: 100%;
+    height: 140vh;
+    background-color: #F7F7F7;
+  }
+  .card-4 .card-4_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-4 .card-4_content h1 {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 18px;
+    color: #222222;
+  }
+  .card-4 .card-4_content p {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .card-4 .card-4_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-4 .card-4_box .card-4_box-1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-4 .card-4_box .card-4_box-1 .card-4_box1 h3 {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box-1 .card-4_box1 p {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box-1 .card-4_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-4 .card-4_box .card-4_box-2 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-4 .card-4_box .card-4_box-2 .card-4_box1 h3 {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box-2 .card-4_box1 p {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box-2 .card-4_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-5 {
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/Фон\ блока.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card-5 .card-5_content {
+    padding-left: 0px;
+  }
+  .card-5 .card-5_box {
+    padding-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  .card-5 .card-5_box .card-5_box1 {
+    width: 248px;
+    height: 154px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 h6 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-5 .card-5_box .card-5_box2 {
+    margin-top: 0px;
+    width: 248px;
+    height: 144px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 h6 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .card-5 .card-5_button {
+    margin-top: 60px;
+    margin-left: 200px;
+    gap: 50px;
+  }
+  .card-5 .card-5_button button {
+    width: 156px;
+    height: 46px;
+    gap: 40px;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .card-6 {
+    width: 100%;
+    height: 235vh;
+  }
+  .card-6 .card-6_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-6 .card-6_content h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #222222;
+  }
+  .card-6 .card-6_content p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .card-6 .card-6_box {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-6 .card-6_box .card-6_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box .card-6_box1 h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 {
+    margin-top: 20px;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 .card-6_box1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_button {
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+  .card-6 .card-6_button button {
+    width: 83px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+  }
+  .card-7 .card-7_content {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_content h1 {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 12px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_content p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.2px;
+    text-align: center;
+    color: #F8F5F4;
+  }
+  .card-7 .card-7_img {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_box .card-7_box1 {
+    padding-top: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con {
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con h5 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p :hover {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 {
+    margin-left: 70px;
+    transform: translateX(-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 button {
+    margin-left: 100px;
+    width: 141px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-8 {
+    width: 100%;
+    height: 20vh;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-8 h5 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-8 p {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+}
+@media (min-width: 769.1px) and (max-width: 990px) {
+  header {
+    width: 100%;
+    height: 5vh;
+    background-color: #010101;
+  }
+  header .header .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  header .header .header_content .header_content_R {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  header .header .header_content .header_content_R p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  header .header .header_content .header_content_L p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #4F8FF0;
+  }
+  .card {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/фон.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card img {
+    padding-left: 60px;
+    margin-top: 50px;
+  }
+  .card .card_content {
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card .card_content h2 {
+    font-family: Nunito Sana;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    color: #FFFFFF;
+  }
+  .card .card_content h1 {
+    font-family: Nunito Sana;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    color: #4F8FF0;
+  }
+  .card .card_content p {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .card .card_content button {
+    margin-top: 20px;
+    width: 158px;
+    height: 49px;
+    border: 2px;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-1 {
+    transform: translateY(-490px);
+    width: 100%;
+    height: 10vh;
+    background: rgba(1, 1, 1, 0.7607843137);
+  }
+  .card-1 .card-1_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-1 .card-1_content .card-1_content_R h3 {
+    font-family: Nunito Sana;
+    font-weight: 900;
+    line-height: 22px;
+    color: #4F8FF0;
+  }
+  .card-1 .card-1_content .card-1_content_R p {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 10px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content_l {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card-1 .card-1_content_l p {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #FFFFFF;
+  }
+  .card-1 .card-1_content_l p :hover {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #4F8FF0;
+  }
+  .card-2 {
+    width: 100%;
+    height: 140vh;
+    background-color: #F7F7F7;
+  }
+  .card-2 button {
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 320px;
+    width: 138px;
+    height: 49px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-2 .card-2_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-2 .card-2_box_R {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  .card-2 .card-2_box_R .card-2_box1:hover {
+    background-color: #4F8FF0;
+    transition: all 0.3s ease-in-out;
+  }
+  .card-2 .card-2_box_R .card-2_box1 {
+    width: 324px;
+    height: 225px;
+    background-color: #FFFFFF;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .card-2 .card-2_box_R .card-2_box1 h5 {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_R .card-2_box1 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  .card-2 .card-2_box_L .card-2_box2:hover {
+    background-color: #4F8FF0;
+    transition: all 0.3s ease-in-out;
+  }
+  .card-2 .card-2_box_L .card-2_box2 {
+    width: 324px;
+    height: 225px;
+    background-color: #FFFFFF;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .card-2 .card-2_box_L .card-2_box2 h5 {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_L .card-2_box2 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2:hover {
+    background-color: #4F8FF0;
+    transition: all 0.3s ease-in-out;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 {
+    width: 324px;
+    height: 225px;
+    background-color: #FFFFFF;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 h5 {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #222222;
+  }
+  .card-2 .card-2_box_Q .card-2_box2 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .card-3 {
+    width: 100%;
+    height: 90vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .card-3 .card-3_content {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .card-3 .card-3_content h1 {
+    font-family: Nunito Sana;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 22px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-3 .card-3_content p {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #010101;
+  }
+  .card-3 .card-3_content .card-3_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+  }
+  .card-3 .card-3_content .card-3_button button {
+    margin-top: 20px;
+    width: 150px;
+    height: 39px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 15.8px;
+    color: #FFFFFF;
+  }
+  .card-3 .card-3_img img {
+    width: 350px;
+    height: 250px;
+  }
+  .card-4 {
+    width: 100%;
+    height: 140vh;
+    background-color: #F7F7F7;
+  }
+  .card-4 .card-4_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-4 .card-4_content h1 {
+    font-family: Nunito Sana;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #222222;
+  }
+  .card-4 .card-4_content p {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .card-4 .card-4_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-4 .card-4_box .card-4_box1 {
+    margin-top: 10px;
+  }
+  .card-4 .card-4_box .card-4_box1 h3 {
+    background-color: #FFFFFF;
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-4 .card-4_box .card-4_box1 p {
+    background-color: #FFFFFF;
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #222222;
+  }
+  .card-5 {
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/Фон\ блока.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card-5 .card-5_content {
+    padding-left: 100px;
+  }
+  .card-5 .card-5_box {
+    margin-left: 20px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .card-5 .card-5_box .card-5_box1 {
+    width: 800px;
+    height: 170px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 h6 {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 .card-5_box1-1 p {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box1 p {
+    margin-left: 70px;
+  }
+  .card-5 .card-5_box .card-5_box2 {
+    width: 800px;
+    height: 170px;
+    background-color: #FFFFFF;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 h6 {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 .card-5_box2-2 p {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #222222;
+  }
+  .card-5 .card-5_box .card-5_box2 p {
+    margin-left: 70px;
+  }
+  .card-5 .card-5_button {
+    margin-left: 250px;
+  }
+  .card-5 .card-5_button button {
+    width: 146px;
+    height: 46px;
+    gap: 50px;
+    border: none;
+    background-color: #4F8FF0;
+    color: #FFFFFF;
+  }
+  .card-6 {
+    width: 100%;
+    height: 160vh;
+  }
+  .card-6 .card-6_content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-6 .card-6_content h1 {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 42px;
+    color: #222222;
+  }
+  .card-6 .card-6_content p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #222222;
+  }
+  .card-6 .card-6_box {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .card-6 .card-6_box .card-6_box1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box .card-6_box1 h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box .card-6_box1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 {
+    margin-left: 250px;
+  }
+  .card-6 .card-6_box-1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .card-6 .card-6_box-1 h5 {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 h4 {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.4px;
+    color: #222222;
+  }
+  .card-6 .card-6_box-1 p {
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.8px;
+    color: #222222;
+  }
+  .card-6 .card-6_button {
+    margin-top: 20px;
+    margin-left: 350px;
+  }
+  .card-6 .card-6_button button {
+    width: 83px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 {
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+  }
+  .card-7 .card-7_content {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_content h1 {
+    font-family: Nunito Sana;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 12px;
+    text-align: center;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_content p {
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 9.2px;
+    text-align: center;
+    color: #F8F5F4;
+  }
+  .card-7 .card-7_img {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-7 .card-7_box .card-7_box1 {
+    padding-top: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con {
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con h5 {
+    font-family: Nunito Sana;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #8C8C8C;
+  }
+  .card-7 .card-7_box .card-7_box1 .card-7_box1-1 .card-7_box1-1-con p {
+    font-family: Nunito Sana;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box2 p :hover {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    color: #4F8FF0;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 {
+    margin-left: 70px;
+    transform: translateX(-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con {
+    text-align: center;
+    padding-left: 20px;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con h4 {
+    font-family: Nunito Sana;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 .card-7_box3-1 .card-7_box3-1-con p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .card-7 .card-7_box .card-7_box3 button {
+    margin-left: 100px;
+    width: 141px;
+    height: 29px;
+    border: none;
+    background-color: #4F8FF0;
+    font-family: Nunito Sana;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 6.8px;
+    color: #FFFFFF;
+  }
+  .card-8 {
+    width: 100%;
+    height: 20vh;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .card-8 h5 {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+  .card-8 p {
+    font-family: Nunito Sana;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    color: #FFFFFF;
+  }
+}/*# sourceMappingURL=style.css.map */
